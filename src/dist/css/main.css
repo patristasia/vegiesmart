@@ -1,0 +1,54 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #fdfdff;
+    --secondary-color: #142f32;
+    --third-color: #0A6847;
+    --color-text: #435055;
+    --navbar-color: #ffffff;
+    --color-text-dark: #000000;
+    --homepage-color: hsl(138.5 76.5% 96.7%);
+  }
+
+/* STYLE NAVBAR */
+  .navbar{
+    position: fixed;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    background: var(--primary-color);
+  }
+
+  .navbar .nav-link a {
+    padding: 5px 10px 5px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color-text);
+  }
+
+  .navbar .nav-link a:hover{
+    color: var(--color-text-dark);
+  }
+
+  .navbar .nav-link .active{
+    color: var(--color-text-dark);
+  }
+
+  .my-custom-button{
+    background-color: var(--secondary-color) !important;
+    color: var(--navbar-color) !important;
+    border: none !important;
+  }
+
+  .custom-img{
+    width: 40px;
+    height: auto;
+    padding-right: 10px;
+  }
+  /* STYLE NAVBAR */
+
+  header {
+    background: var(--homepage-color);
+  }
