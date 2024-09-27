@@ -14,10 +14,21 @@
 
 /* STYLE NAVBAR */
   .navbar{
-    position: fixed;
+    position: fixed !important;
     padding: 15px 0 15px 0;
     width: 100%;
-    background: var(--primary-color);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    /* background: var(--primary-color); */
+  }
+
+  .navbar.color-active{
+    background-color: var(--primary-color);
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #142f321e;
   }
 
   .navbar .nav-link a {
