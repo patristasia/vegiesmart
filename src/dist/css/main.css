@@ -60,6 +60,14 @@
   }
   /* STYLE NAVBAR */
 
+  /* STYLE HOMEPAGE HEADER */
   header {
     background: var(--homepage-color);
   }
+
+  .homepage .header-box h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+  }
+  /* STYLE HOMEPAGE HEADER */
